@@ -1,0 +1,6 @@
+{
+    "menuItem1": {"label": "About", "href":"#"},
+    "menuItem2": {"label": "Thinking", "href":"#"},
+    "menuItem3": {"label": "Services", "href":"#"},
+    "menuItem4": {"label": "Work Search", "href":"#"}
+}

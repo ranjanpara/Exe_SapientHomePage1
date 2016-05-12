@@ -1,0 +1,222 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
+	<title>Sapient Home Page - Exercise</title>
+<style>
+   @IMPORT url("./CSS/style.css")
+ </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+ <script type="text/javascript">
+// Form validation code will come here.
+ re = /^(\d{1,2})\/(\d{1,2})\/(\d{4})$/;
+
+//-->
+
+ </script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/carousel.js"></script>
+</head>
+<body>
+
+	<header> 
+   <figure>
+		<img src="Images/Sapient_logo.png" alt="Sapient logo">
+    </figure>
+		<nav class="topRightNav">
+			<ul>
+             <li><a href="#">NEWS</a><span>|</span> </li>
+             <li><a href="#"> CAREERS</a><span>|</span></li>
+             <li><a href="#"> CONTACT US</a><span>|</span></li>
+			</ul>
+		</nav>
+	</header>
+	<nav class="navigation">
+      <div class="nav_Other">
+        <ul>
+             <li id="nav1"></li>
+             <li id="nav2"></li>
+             <li id="nav3"></li>
+             <li id="nav4"></li>
+        </ul>
+        </div>
+	</nav>
+
+    <nav class="navigation">
+       <div class="nav_mob">
+         <ul>
+             <li><a href="#">About</a></li>
+               <li><span>|</span></li>
+             <li><a href="#">Thinking </a></li>
+             
+        </ul>
+        
+          
+         <ul>
+             <li><a href="#">Services</a></li>
+              <li><span>|</span></li>
+             <li><a href="#">Work Search</a></li>
+        </ul>
+         </div>
+	</nav>
+   
+
+  <aside class="leftContent">
+
+  <section class="leftContentTxt">
+  <h2>RECENT ACTIVITIES</h2>
+   <dl>
+   	<dt>News</dt>
+        <figure id="newsImg"></figure>
+         <dd id="newsDesc"></dd>
+    </dl>
+      <dl>
+	<dt>Papers</dt>
+       <figure id="papersImg"></figure>
+       <dd id="papersDesc"></dd>
+    </dl>
+      <dl>
+     <dt>Blog</dt>
+       <figure id="blogImg"></figure>
+       <dd id="blogDesc"></dd>
+      </dl>
+      <dl>
+     <dt>Connnect</dt>
+     <div>
+       <dd><a href="#"><img src="Images/linkedinBtn.png" alt="linkedin"></a> <a href="#"><img src="Images/facebookBtn.png" alt="facebook"></a>
+        <a href="#"><img src="Images/twitterBtn.png" alt="twitter"></a> <a href="#"><img src="Images/playBtn.png" alt="play"></a></dd>
+        </div>
+    </dl>
+     </section>
+     
+    <video width="211px" height="150px" controls>
+      <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+       <source src="http://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+   
+    </video> 
+
+    <section class="status">
+  <h2>YEARLY REPORTS</h2>
+  <select id="menu">
+  <option value="current">2012</option>
+  <option value="previous">2011</option>
+  <option value="previous1">2010</option>
+  </select>
+
+  <table  id="reportsTable" frame=box class="YearlyReports">
+  	
+<thead>
+	<tr>
+        <th>Months</th>
+        <th>Task</th>
+        <th>Status</th>
+	</tr>
+</thead>
+<tbody>
+</tbody>
+  </table>
+    </section>
+</aside>
+
+
+<article class="main_content">
+
+<section class="slideShow">
+    <div id='carousel_container'>
+  <div id='left_scroll'><img src='Images/carousal_left.png' /></div>
+    <div id='carousel_inner'>
+        <ul id='carousel_ul'>
+        </ul>
+    </div>
+  <div id='right_scroll'><img src='Images/carousal_right.png' /></div>
+  </div>
+</section>
+
+
+
+
+<section class="about_us">
+<h2>About</h2>
+<figure>
+<img src="Images/About_image.png" alt="About US"></figure>
+<h3>The Business of <span> TRANSFORMATION</span></h3> 
+<p>Meet your next customer. Maybe.Making this introduction requires a delicate interplay of medium, message and moment,  delicate interplay of medium, message and moment, delicate interplay of medium, message and moment, delicate interplay of medium. </p>
+
+<p>They're complicated. Highly emotional. They won't sit still. They want to feel valued. They want to be in a relationship, provided they get to call all of the shots. And enabling and empowering every moment of their complicated, emotional, impulsive lives is technology.</p>
+
+<p>Meet your next customer. Maybe.Making this introduction requires a delicate interplay of medium, message and moment, crafted in a culture imbued with multi-disciplinary innovation, and driven by a technology-centric mindset. </p>
+
+</section>
+
+<section class="form">
+<h2>PERSONAL INFORMATION  :</h2>
+<form action="" name="myForm"  onsubmit="return(validate());">
+<label for "name">Name : *</label><br>
+<input type="text" name ="Name" id="Name" class="form_Textbox"/><br>
+
+<label for "email">Email : *</label><br>
+<input type="Email" name ="email" id="email" class="form_Textbox"/><br>
+
+<label for "telephone">Telephone : *</label><br>
+<input type="tel" name="telephone" id="telephone" class="form_Textbox"/><br>
+
+<label for "dob">DOB : *</label><br>
+<input type="text" name="dob" id="dob" placeholder="DD/MM/YYYY"></input><input id="button" type="submit" value="Go" id="goBtn"></input>
+</form>
+</section>
+<!-- Other Devise info section -->
+<section class="info_other">
+    <section class="GM_info">
+      <img src="Images/gm.png" alt="" class="GM_info_img">
+      <p>Sapient Global Markets provides business and technology services that transform how capital and commodity market participants.</p>
+     <div class="moreRead"> <a href="#">Read More <img src="Images/triangle.png" alt=""></a></div>
+    </section>
+
+    <section class="GS_info">
+      <img src="Images/gs.png" alt="" class="GS_info_img">
+      <p>With a track record of delivering mission-critical solutions, Sapient Government Services is a leading provider of consulting, technology.</p>
+        <div class="moreRead"> <a href="#">Read More <img src="Images/triangle.png" alt=""></a></div>
+    </section>
+
+    <section class="SN_info">
+      <img src="Images/sn.png" alt="" class="SN_info_img">
+      <p>SapientNitro is a new breed of agency for an always-on world, unifying promise with experience by telling stories in new and unexpected ways across brand communications.</p>
+     <div class="moreRead"> <a href="#">Read More <img src="Images/triangle.png" alt=""></a></div>
+    </section>
+</section>
+
+<!-- Moblie info section -->
+<section class="info_mob">
+    <section class="SN_info">
+      <p>SapientNitro</p>
+     <div class="moreRead_mob"> <a href="#">Read More</a></div>
+    </section>
+    
+    <section class="GS_info">
+      <p>Sapient<br>Government Services</p>
+        <div class="moreRead_mob"> <a href="#">Read More</a></div>
+    </section>
+    
+    
+    <section class="GM_info">
+        <p>Sapient<br>Global Market</p>
+     <div class="moreRead_mob"> <a href="#">Read More </a></div>
+    </section>
+
+</section>
+</article>
+
+
+
+<footer class="footer">
+<hr>
+Copyright © 2012 Sapient Corporation. All Rights Reserved. Terms of Use| Privacy Policy
+</footer>
+
+</body>
+
+</html>

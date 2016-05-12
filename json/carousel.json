@@ -1,0 +1,18 @@
+{
+        "slides1": {
+                "date":"3-1-12",
+                "title": "Earphone Bully",
+                "imageUrl": "Images/earphone.png"
+            },
+        "slides2":{
+            "date":"12-1-12",
+            "title": "Online Brand Experiences",
+            "imageUrl": "Images/hyatt.png"
+        },
+        "slides3":{
+            "date":"4-29-12",
+            "title": "Audi Mobile Configurator",
+            "imageUrl": "Images/audio.png"
+        }    
+            
+}
